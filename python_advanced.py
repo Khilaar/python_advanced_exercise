@@ -95,7 +95,7 @@ print(totals)
 """
 
 #Restaurant
-
+"""
 class Dish:
     def __init__(self, name, ingredients, client_price):
         self.name = name
@@ -180,10 +180,13 @@ kebab = Client("Kebab")
 
 # Orders
 donald.order(pizzeria, pizza)
+donald.order(pizzeria, pizza)
+donald.order(pizzeria, pizza)
 donald.order(pizzeria, salad)
 donald.checkout(pizzeria)
 
 kebab.order(pizzeria, salad)
+kebab.order(pizzeria, pizza)
 kebab.checkout(pizzeria)
+"""
 
-# Print Orders
